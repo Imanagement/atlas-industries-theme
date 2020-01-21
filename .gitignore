@@ -1,0 +1,19 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
+.vscode/
+*.sublime-*
+
+# Node / build tooling (in case a package.json is added later)
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# WordPress artifacts that must never live in a theme repo
+wp-config.php
+*.sql
+*.sql.gz
+error_log
+debug.log
